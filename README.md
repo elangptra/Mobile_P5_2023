@@ -42,28 +42,28 @@ Buat folder baru basic_widgets di dalam folder lib. Kemudian buat file baru di d
 
 Lakukan import file text_widget.dart ke main.dart, lalu ganti bagian text widget dengan kode di atas. Maka hasilnya seperti gambar berikut. Screenshot hasil milik Anda, lalu dibuat laporan pada file README.md.
 
-![Alt text](/images/image-4.png)
+![Alt text](/praktikum/basic_widgets/images/image-4.png)
 
 <b>Jawab:</b>
 1. Membuat folder baru dan file baru dengan isi kode diatas dan mengubah Fulan menjadi nama lengkap.
 
-![Alt text](/images/image.png)
+![Alt text](/praktikum/basic_widgets/images/image.png)
 
 2. Mengubah isi main.dart untuk menampilkan widget yang telah dibuat pada langkah 1.
 
-![Alt text](/images/image-1.png)
+![Alt text](/praktikum/basic_widgets/images/image-1.png)
 
 3. Menambahkan import folder agar class dapat diidentifikasi pada file main.dart.
 
-![Alt text](/images/image-2.png)
+![Alt text](/praktikum/basic_widgets/images/image-2.png)
 
 4. Hasil running program di website.
 
-![Alt text](/images/image-3.png)
+![Alt text](/praktikum/basic_widgets/images/image-3.png)
 
 5. Hasil running program di device.
 
-![Alt text](/images/image-12.png)
+![Alt text](/praktikum/basic_widgets/images/image-12.png)
 
 <b>Langkah 2: Image Widget</b>
 
@@ -77,7 +77,7 @@ Buat sebuah file image_widget.dart di dalam folder basic_widgets dengan isi kode
         @override
         Widget build(BuildContext context) {
             return const Image(
-                /images/image: AssetImage("logo_polinema.jpg")
+                /praktikum/basic_widgets/images/image: AssetImage("logo_polinema.jpg")
             );
         }
     }
@@ -90,37 +90,37 @@ Lakukan penyesuaian asset pada file pubspec.yaml dan tambahkan file logo Anda di
 
 Jangan lupa sesuaikan kode dan import di file main.dart kemudian akan tampil gambar seperti berikut.
 
-![Alt text](/images/image-5.png)
+![Alt text](/praktikum/basic_widgets/images/image-5.png)
 
 <b>Jawab:</b>
 
 1. Membuat file baru pada folder basic_widgets lalu mengisikan kode seperti berikut.
 
-![Alt text](/images/image-6.png)
+![Alt text](/praktikum/basic_widgets/images/image-6.png)
 
-2. Membuat folder assets pada root folder dan tambahkan folder images(opsional), masukkan gambar logo_polinema disana.
+2. Membuat folder assets pada root folder dan tambahkan folder/praktikum/basic_widgets images(opsional), masukkan gambar logo_polinema disana.
 
-![Alt text](/images/image-7.png)
+![Alt text](/praktikum/basic_widgets/images/image-7.png)
 
 3. Ubah isi pubspec.yaml agar direktori assets dapat terbaca oleh aplikasi flutter
 
-![Alt text](/images/image-8.png)
+![Alt text](/praktikum/basic_widgets/images/image-8.png)
 
 4. Ubah isi main.dart untuk menampilkan gambar logo_polinema.png
 
-![Alt text](/images/image-9.png)
+![Alt text](/praktikum/basic_widgets/images/image-9.png)
 
 5. Tambahkan import package agar class dari file image_widget.dart dapat dipanggil.
 
-![Alt text](/images/image-10.png)
+![Alt text](/praktikum/basic_widgets/images/image-10.png)
 
 6. Hasil running program di website.
 
-![Alt text](/images/image-11.png)
+![Alt text](/praktikum/basic_widgets/images/image-11.png)
 
 7. Hasil running program di device.
 
-![Alt text](/images/image-13.png)
+![Alt text](/praktikum/basic_widgets/images/image-13.png)
 
 # <b>Praktikum 4: Menerapkan Widget Material Design dan iOS Cupertino</b>
 
@@ -150,25 +150,25 @@ Buat file di basic_widgets > loading_cupertino.dart. Import stateless widget dar
 
 1. Membuat file baru pada folder basic_widget dari Praktikum sebelumnya lalu isikan kode diatas.
 
-![Alt text](/images/image-14.png)
+![Alt text](/praktikum/basic_widgets/images/image-14.png)
 
 > **_Note:_**  Sebelum menambahkan kode pada langkah 1, tambahkan import package material dan cupertino terlebih dahulu. Setelah itu tambahkan stateless widget.
 
 2. Memasukkan class yang telah dibuat pada file loading_cupertino.dart ke bagian MaterialApp di main.dart.
 
-![Alt text](/images/image-15.png)
+![Alt text](/praktikum/basic_widgets/images/image-15.png)
 
 3. Tambahkan import package file loading_cupertino.dart agar class LoadCupertino() dapat dipanggil.
 
-![Alt text](/images/image-16.png)
+![Alt text](/praktikum/basic_widgets/images/image-16.png)
 
 4. Hasil running program di website.
 
-![Alt text](/images/image-17.png)
+![Alt text](/praktikum/basic_widgets/images/image-17.png)
 
 5. Hasil running program di device.
 
-![Alt text](/images/image-18.png)
+![Alt text](/praktikum/basic_widgets/images/image-18.png)
 
 <b>Langkah 2: Floating Action Button (FAB)</b>
 
@@ -192,25 +192,25 @@ Buat file di basic_widgets > fab_widget.dart. Import stateless widget dari mater
 
 1. Membuat file baru pada folder basic_widget dari Praktikum sebelumnya lalu isikan kode diatas.
 
-![Alt text](/images/image-19.png)
+![Alt text](/praktikum/basic_widgets/images/image-19.png)
 
 > **_Note:_**  Sebelum menambahkan kode pada langkah 2, tambahkan import package material terlebih dahulu. Setelah itu tambahkan stateless widget.
 
 2. Memasukkan class yang telah dibuat pada file fab_widget.dart ke bagian MaterialApp di main.dart.
 
-![Alt text](/images/image-20.png)
+![Alt text](/praktikum/basic_widgets/images/image-20.png)
 
 3. Tambahkan import package file fab_widget.dart agar class FabWidget() dapat dipanggil.
 
-![Alt text](/images/image-21.png)
+![Alt text](/praktikum/basic_widgets/images/image-21.png)
 
 4. Hasil running program di website.
 
-![Alt text](/images/image-22.png)
+![Alt text](/praktikum/basic_widgets/images/image-22.png)
 
 5. Hasil running program di device.
 
-![Alt text](/images/image-23.png)
+![Alt text](/praktikum/basic_widgets/images/image-23.png)
 
 <b>Langkah 3: Scaffold Widget</b>
 
@@ -299,23 +299,23 @@ Ubah isi kode main.dart seperti berikut.
 
 1. Membuat file baru pada folder basic_widgets setelah itu inputkan kode diatas.
 
-![Alt text](/images/image-24.png)
+![Alt text](/praktikum/basic_widgets/images/image-24.png)
 
 2. Memanggil class yang sudah dibuat pada file scaffold_widget ke main.dart.
 
-![Alt text](/images/image-25.png)
+![Alt text](/praktikum/basic_widgets/images/image-25.png)
 
 3. Menambahkan import package yang mengarah ke file scaffold_widget agar class ScaffoldWidget dapat dipanggil.
 
-![Alt text](/images/image-26.png)
+![Alt text](/praktikum/basic_widgets/images/image-26.png)
 
 4. Hasil running program di website
 
-![Alt text](/images/image-27.png)
+![Alt text](/praktikum/basic_widgets/images/image-27.png)
 
 5. Hasil running program di device
 
-![Alt text](/images/image-28.png)
+![Alt text](/praktikum/basic_widgets/images/image-28.png)
 
 <b>Langkah 4: Dialog Widget</b>
 
@@ -386,25 +386,25 @@ Ubah isi kode main.dart seperti berikut.
 
 1. Membuat file baru pada folder basic_widgets setelah itu inputkan kode diatas.
 
-![Alt text](/images/image-30.png)
+![Alt text](/praktikum/basic_widgets/images/image-30.png)
 
 > **_Note:_**  Tambahkan package material terlebih dahulu agar tidak terjadi error.
 
 2. Memanggil class yang sudah dibuat pada file dialog_widget ke main.dart.
 
-![Alt text](/images/image-31.png)
+![Alt text](/praktikum/basic_widgets/images/image-31.png)
 
 3. Menambahkan import package yang mengarah ke file dialog_widget agar class DialogWidget dapat dipanggil.
 
-![Alt text](/images/image-32.png)
+![Alt text](/praktikum/basic_widgets/images/image-32.png)
 
 4. Hasil running program di website
 
-![Alt text](/images/image-29.png)
+![Alt text](/praktikum/basic_widgets/images/image-29.png)
 
 5. Hasil running program di device
 
-![Alt text](/images/image-33.png)
+![Alt text](/praktikum/basic_widgets/images/image-33.png)
 
 <b>Langkah 5: Input dan Selection Widget</b>
 
@@ -438,25 +438,25 @@ Contoh penggunaan TextField widget adalah sebagai berikut:
 
 1. Membuat file baru pada folder basic_widgets setelah itu inputkan kode diatas.
 
-![Alt text](/images/image-34.png)
+![Alt text](/praktikum/basic_widgets/images/image-34.png)
 
 > **_Note:_**  Tambahkan package material terlebih dahulu agar tidak terjadi error.
 
 2. Memanggil class yang sudah dibuat pada file inselect_widget ke main.dart.
 
-![Alt text](/images/image-35.png)
+![Alt text](/praktikum/basic_widgets/images/image-35.png)
 
 3. Menambahkan import package yang mengarah ke file inselect_widget agar class InputSelectionWidget dapat dipanggil.
 
-![Alt text](/images/image-36.png)
+![Alt text](/praktikum/basic_widgets/images/image-36.png)
 
 4. Hasil running program di website
 
-![Alt text](/images/image-37.png)
+![Alt text](/praktikum/basic_widgets/images/image-37.png)
 
 5. Hasil running program di device
 
-![Alt text](/images/image-38.png)
+![Alt text](/praktikum/basic_widgets/images/image-38.png)
 
 <b>Langkah 6: Date and Time Pickers</b>
 
@@ -542,41 +542,41 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 1. Membuat file baru pada folder basic_widgets setelah itu inputkan kode diatas.
 
-![Alt text](/images/image-39.png)
+![Alt text](/praktikum/basic_widgets/images/image-39.png)
 
 2. Memanggil class yang sudah dibuat pada file datetime_widget ke main.dart.
 
-![Alt text](/images/image-40.png)
+![Alt text](/praktikum/basic_widgets/images/image-40.png)
 
 3. Menambahkan import package yang mengarah ke file datetime_widget agar class DateTimeWidget dapat dipanggil.
 
-![Alt text](/images/image-41.png)
+![Alt text](/praktikum/basic_widgets/images/image-41.png)
 
 4. Hasil running program di website
 
-![Alt text](/images/image-42.png)
+![Alt text](/praktikum/basic_widgets/images/image-42.png)
 
-![Alt text](/images/image-43.png)
+![Alt text](/praktikum/basic_widgets/images/image-43.png)
 
 5. Hasil running program di device
 
-![Alt text](/images/image-44.png)
+![Alt text](/praktikum/basic_widgets/images/image-44.png)
 
-![Alt text](/images/image-45.png)
+![Alt text](/praktikum/basic_widgets/images/image-45.png)
 
 # <b>Tugas Codelabs</b>
 
 <b>Langkah 1: Membuat project flutter</b>
 
-![Alt text](/img-codelabs/image.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image.png)
 
 <b>Langkah 2: Ubah isi file pubspec.yaml</b>
 
-![Alt text](/img-codelabs/image-1.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-1.png)
 
 <b>Langkah 3: Ubah isi file analysis_options.yaml</b>
 
-![Alt text](/img-codelabs/image-2.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-2.png)
 
 <b>Langkah 4: Ubah isi file main.dart</b>
 
@@ -797,15 +797,15 @@ Date and Time Pickers termasuk pada kategori input dan selection widget, berikut
 
 1. Hasil running program di website
 
-![Alt text](/img-codelabs/image-3.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-3.png)
 
-![Alt text](/img-codelabs/image-4.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-4.png)
 
 2. Hasil running program di device
 
-![Alt text](/img-codelabs/image-5.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-5.png)
 
-![Alt text](/img-codelabs/image-6.png)
+![Alt text](/codelabs/app_elang/img-codelabs/image-6.png)
 
 Link Github:
 
