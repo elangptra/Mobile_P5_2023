@@ -22,15 +22,15 @@ buka https://jti-polinema.github.io/flutter-codelab/16-flutter-fundamental-bagia
 
 <b>Langkah 1: Membuat project flutter</b>
 
-![Alt text](/img-codelabs/image.png)
+![Alt text](img-codelabs/image.png)
 
 <b>Langkah 2: Ubah isi file pubspec.yaml</b>
 
-![Alt text](/img-codelabs/image-1.png)
+![Alt text](img-codelabs/image-1.png)
 
 <b>Langkah 3: Ubah isi file analysis_options.yaml</b>
 
-![Alt text](/img-codelabs/image-2.png)
+![Alt text](img-codelabs/image-2.png)
 
 <b>Langkah 4: Ubah isi file main.dart</b>
 
@@ -251,12 +251,12 @@ buka https://jti-polinema.github.io/flutter-codelab/16-flutter-fundamental-bagia
 
 1. Hasil running program di website
 
-![Alt text](/img-codelabs/image-3.png)
+![Alt text](img-codelabs/image-3.png)
 
-![Alt text](/img-codelabs/image-4.png)
+![Alt text](img-codelabs/image-4.png)
 
 2. Hasil running program di device
 
-![Alt text](/img-codelabs/image-5.png)
+![Alt text](img-codelabs/image-5.png)
 
-![Alt text](/img-codelabs/image-6.png)
+![Alt text](img-codelabs/image-6.png)
